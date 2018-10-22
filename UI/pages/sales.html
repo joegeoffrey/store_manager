@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> Prime Supermarket </title>
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:700, 600,500,400,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+        <link rel="stylesheet" href="../css/main.css">
+
+        <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/data.js"></script>
+        <script src="js/main.js"></script>
+    </head>
+    <body>
+        <div class="header">
+            <div class="logo">
+                <i class="fa fa-tachometer"></i>
+                <span>Brand</span>
+            </div>
+            <a href="#" class="nav-trigger"><span></span></a>
+        </div>
+        <div class="side-nav">
+            <div class="logo">
+                <i class="fa fa-tachometer"></i>
+                <span>Prime Supermarket</span>
+            </div>
+            <nav>
+                <ul>
+                    <li class="active">
+                        <a href="../pages/dashboard.html">
+                            <span><i class="fa fa-user"></i></span>
+                            <span>Dashboard</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../pages/products.html">
+                            <span><i class="fa fa-envelope"></i></span>
+                            <span>Products</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../pages/sales.html">
+                            <span><i class="fa fa-bar-chart"></i></span>
+                            <span>Sales</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span><i class="fa fa-credit-card-alt"></i></span>
+                            <span>Payments</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../index.html">
+                            <span><i class="fa fa-power-off"></i></span>
+                            <span>Logout</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main-content">
+            <div class="product-list">
+                <h4>Sales</h4> <a href="add_attendant.html"><button class="button">Add Sales Attendant</button></a><br><br>
+                <form action="#">
+                    <select name="attendant">
+                        <option value="">Select Attendant</option>
+                      <option value="Sarah">Sarah Williams</option>
+                      <option value="Peter">Peter White</option>
+                      <option value="John">John Doe</option>
+                      <option value="Michael">Michael Jordan</option>
+                    </select>
+                <button class="button">Sort By Attendant</button>
+                
+                <table>
+                    <thead>
+                        <th>#</th>
+                        <th>Date</th>
+                        <th>Item</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Attendant</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>May 1, 2018</td>
+                            <td>Tecno Camon CM</td>
+                            <td>5</td>
+                            <td>UGX. 1,600,000</td>
+                            <td>Sarah Williams</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>May 6, 2018</td>
+                            <td>Phantom 6</td>
+                            <td>2</td>
+                            <td>UGX. 25,000,000</td>
+                            <td>Peter White</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>May 9, 2018</td>
+                            <td>Sony Flash 32GB</td>
+                            <td>5</td>
+                            <td>UGX. 210,000</td>
+                            <td>John Doe</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>May 13, 2018</td>
+                            <td>Hisense 40" TV</td>
+                            <td>8</td>
+                            <td>UGX. 5,750,000</td>
+                            <td>Michael Jordan</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>May 17, 2018</td>
+                            <td>Sony Projector</td>
+                            <td>21</td>
+                            <td>UGX. 13,820,000</td>
+                            <td>Peter White</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
